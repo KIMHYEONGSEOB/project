@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.hello.spring.HelloSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-12T10:39:30" hostname="DESKTOP-ADN5UNC" time="0.598">
+  <properties/>
+  <testcase name="contextLoads()" classname="hello.hello.spring.HelloSpringApplicationTests" time="0.598"/>
+  <system-out><![CDATA[19:39:28.576 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [hello.hello.spring.HelloSpringApplicationTests]: HelloSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:39:28.687 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration hello.hello.spring.HelloSpringApplication for test class hello.hello.spring.HelloSpringApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-12T19:39:29.068+09:00  INFO 16000 --- [hello-spring] [    Test worker] h.h.spring.HelloSpringApplicationTests   : Starting HelloSpringApplicationTests using Java 17.0.11 with PID 16000 (started by 김형섭 in C:\study\hello-spring)
+2024-09-12T19:39:29.070+09:00  INFO 16000 --- [hello-spring] [    Test worker] h.h.spring.HelloSpringApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-09-12T19:39:30.086+09:00  INFO 16000 --- [hello-spring] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-09-12T19:39:30.372+09:00  INFO 16000 --- [hello-spring] [    Test worker] h.h.spring.HelloSpringApplicationTests   : Started HelloSpringApplicationTests in 1.534 seconds (process running for 2.617)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
